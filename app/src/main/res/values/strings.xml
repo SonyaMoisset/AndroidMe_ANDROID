@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AndroidMe</string>
+
+    <string name="head_index">headIndex</string>
+    <string name="body_index">bodyIndex</string>
+    <string name="leg_index">legIndex</string>
+
+    <string name="log_error_message">This fragment has a null list of image id\'s</string>
+    <string name="image_view_content_description">Body Part ImageView</string>
+</resources>

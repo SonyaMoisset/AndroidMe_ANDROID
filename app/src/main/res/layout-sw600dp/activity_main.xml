@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="horizontal">
+
+    <fragment
+        android:id="@+id/fragment_master_list"
+        android:name="com.sonyamoisset.android.androidme.ui.fragment.MasterListFragment"
+        android:layout_width="@dimen/fragment_layout_width"
+        android:layout_height="match_parent"/>
+
+    <View
+        android:layout_width="@dimen/view_layout_width"
+        android:layout_height="match_parent"
+        android:background="@android:color/darker_gray"/>
+
+    <LinearLayout
+        android:id="@+id/linear_layout_android_me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <FrameLayout
+            android:id="@+id/frame_layout_head"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/frame_layout_height"
+            android:scaleType="centerInside"/>
+
+        <FrameLayout
+            android:id="@+id/frame_layout_body"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/frame_layout_height"
+            android:scaleType="centerInside"/>
+
+        <FrameLayout
+            android:id="@+id/frame_layout_leg"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/frame_layout_height"
+            android:scaleType="centerInside"/>
+    </LinearLayout>
+</LinearLayout>
