@@ -1,7 +1,7 @@
 # AndroidMe
 
-An app where the user can create its own AndroidMe.
-This project is part of the Udacity Android Nanodegree Program.
+An app where the user can create its own AndroidMe.   
+This project is part of the Udacity Android Nanodegree Program.   
 The starter code has been refactored.
 
 ## Mobile View
